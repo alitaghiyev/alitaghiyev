@@ -18,13 +18,25 @@ I build things end to end: client, backend and the AI layer in between. I starte
 
 ## Featured project
 
-### [ReadRiver](https://github.com/alitaghiyev/readriver)
+### ReadRiver
 
-An open source Chrome / Brave extension that translates words, sentences and video subtitles without leaving the page. Save the words you want to learn and review them with flashcards. It works out of the box with free sources, and you can plug in your own LLM.
+Open source translation that stays where you are reading. Double-click a word or select a sentence and a card opens right next to it; save the words you want to learn and review them with flashcards. It works out of the box with free sources, and you can plug in your own LLM.
 
-<a href="https://github.com/alitaghiyev/readriver">
-  <img src="https://raw.githubusercontent.com/alitaghiyev/readriver/main/docs/screenshots/card.png" alt="ReadRiver translation card" width="600" />
-</a>
+- 🧩 **[ReadRiver Extension](https://github.com/alitaghiyev/readriver-extension)** for Chrome / Brave: web pages and video subtitles (YouTube, Netflix), one-click labels above the words you click.
+- 🖥️ **[ReadRiver Desktop](https://github.com/alitaghiyev/readriver-desktop)** for Windows: the same card in any app (Discord, PDF readers, editors), written in C# / WPF.
+
+Settings, providers and saved words move between the two with one backup file.
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="https://github.com/alitaghiyev/readriver-extension"><img src="https://raw.githubusercontent.com/alitaghiyev/readriver-extension/main/docs/screenshots/card.png" alt="ReadRiver Extension: translation card on a web page" /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/alitaghiyev/readriver-desktop"><img src="https://raw.githubusercontent.com/alitaghiyev/readriver-desktop/main/docs/screenshots/card.png" alt="ReadRiver Desktop: translation card over a Windows app" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Extension</strong>: in the page</td>
+    <td align="center"><strong>Desktop</strong>: in any Windows app</td>
+  </tr>
+</table>
 
 ## Tech
 
